@@ -1,0 +1,141 @@
+.line{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.cont{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 40dvw;
+    height: 10dvh;
+    background-color: #276221;
+    margin: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+.cont p{
+    font-size: larger;
+    font-weight: bold;
+}
+.cont h3{
+    padding: 0%;
+    margin: 0%;
+}
+.one{
+    width: 40%;
+    margin-right: 30px;
+    border: solid black 3px;
+    height: 50dvh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+.one h1{
+    text-align: center;
+}
+.one table{
+    width: 32dvw;
+    height: 25dvh;
+}
+.one table thead{
+    height: 4dvh;
+    background-color: #9E122C;
+    color: white;
+}
+.one table tbody{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+
+.one img{
+    height: 230px;
+    padding-bottom: 30px;
+}
+.for{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+#ex{
+    background-color: #9E122C;
+}
+
+
+
+@media only screen and (max-width: 576px){
+
+    .box{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .box #dash-content{
+        width: 100%;
+        overflow: auto;
+        position: relative;
+
+    }
+
+    .box #dash-content h1{
+        font-size: 1.2rem;
+        text-align: left;
+        padding: 0 10px;
+    }
+
+
+    .box #dash-content .firstline{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .box #dash-content .firstline h3{
+        font-size: 0.9rem;
+    }
+
+    .box #dash-content .secondline{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box #dash-content .secondline .one{
+        margin: 20px 0;
+        width: 85%;
+        height: auto;
+        border: thin solid black;
+        display: block;
+    }
+
+    .box #dash-content .secondline .one .canvas001{
+        width: 100%;
+        height: auto;
+    }
+
+    .box #dash-content .secondline .withtables{
+        padding: 0;
+        margin: 0;
+        overflow: auto;
+    }
+
+    .box #dash-content .secondline .withtables table{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .box #dash-content .secondline .withtables table th{
+        font-size: 0.8rem;
+    }
+}

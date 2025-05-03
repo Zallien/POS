@@ -1,0 +1,944 @@
+/* loading */
+
+
+
+/* btns */
+.delbtn{
+    width: 4dvw;
+    height: 4dvh;
+    background-color: #db524b;
+    color: white;
+    border: 2px solid #d64138;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.editbtn{
+    width: 4dvw;
+    height: 4dvh;
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* modules */
+.module{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000; 
+}
+.module form{
+    border-radius: 10px;
+    background-color: white;
+    padding: 0%;
+    margin: 0;
+}
+.module form div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30dvw;
+    height: 20dvh;
+    padding: 0;
+    margin: 0;
+}
+
+#accountmodule{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000; 
+}
+#accountmodule form{
+    border-radius: 10px;
+    background-color: white;
+    padding: 0%;
+    margin: 0;
+    
+}
+#accountmodule form div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45dvw;
+    height: 65dvh;
+    padding: 0;
+    margin: 0;
+}
+#accountmodule form div div{
+    background-color: white;
+    display: flex;
+    flex-direction: row;    
+}
+.module form div .ques{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.module form .ques input{
+    margin-top: 10px;
+    width: 25dvw;
+}
+.module form .ques select{
+    margin-top: 10px;
+    width: 25.5dvw;
+    height: 4dvh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.module h1{
+    height: 3dvh;
+    background-color: #EE6A43;
+    font-size: medium;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.module form div div{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.module form input{
+    margin-bottom: 10px;
+    width: 15dvw;
+    height: 4dvh;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.module form button{
+    margin-bottom: 20px;
+    width: 15dvw;
+    height: 4dvh;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+/* records */
+#report-content{
+    padding: 0%;
+    margin: 0%;
+}
+#report-content .cool{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+#report-content .cool .head{
+    width: 100%;
+    height: 7dvh;
+    background-color: gray;
+    display: flex;
+    color: white;
+}
+#report-content .cool .head button{
+    width: auto;
+    height: 4dvh;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    margin-top: 8px;
+}
+#report-content .cool .head div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18dvw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#report-content .cool .head div label{
+    margin-right: 1dvw;
+    width: 5dvw;
+}   
+#report-content .cool .head div input{
+    margin-right: 1dvw;
+}   
+#report-content .cool .container{
+    width: 100%;
+    height: 70dvh;
+}
+#report-content .cool .container table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#report-content .cool .container table thead{
+    background-color: #9E122C;
+    color: white;
+    height: 4dvh;
+}
+#report-content .cool .container table tbody{
+    text-align: center;
+
+}
+#report-content .cool .container .one{
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    
+    align-items: start;
+}
+
+/* order sales */
+#order-content{
+    padding: 0%;
+    margin: 0%;
+}
+#order-content .cool{
+    display: flex;
+    flex-direction: row;
+}
+#order-content .cool .head{
+    width: 58%;
+    height: 75dvh;
+    margin-right: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+#order-content .cool .head input{
+    width: 30dvw;
+    height: 3dvh;
+    border: 2px solid black;
+    margin: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+#order-content .cool .head button{
+    width: 4dvw;
+    height: 4dvh;
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+#order-content .cool .head table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+#order-content .cool .head table thead{
+    background-color: #EE6A43;
+    color: white;
+    height: 5dvh;
+}
+#order-content .cool .head table tbody{
+    text-align: center;
+}
+
+#order-content .cool .container{
+    width: 40%;
+    overflow-y: auto;
+    border: 2px solid black;
+}
+#order-content .cool .container table tbody{
+    text-align: center;
+    
+}
+
+#order-content .cool .container table{
+    width: 100%;
+    border-collapse: collapse;
+    height: 57dvh;
+}
+#order-content .cool .container table thead{
+    background-color: #EE6A43;
+    color: white;
+    height: 5dvh;
+}
+#order-content .cool .container form{  
+    display: flex;
+    flex-direction: column;
+}
+#order-content .cool .container form .tablediv{
+    overflow-y: auto;
+}
+
+#order-content .cool .container form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#order-content .cool .container form input{
+    width: 16dvw;
+    height: 3dvh;
+    border: 2px solid black;
+    margin: 2px;
+}
+#order-content .cool .container form label{
+    width: 6dvw;
+    height: 3dvh;
+    margin: 2px;
+}
+#order-content .cool .container form button{
+    width: 4dvw;
+    height: 4dvh;
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+/* stock entry */
+#out-content{
+    padding: 0%;
+    margin: 0%;
+}
+#out-content .cool{
+    display: flex;
+    flex-direction: column;
+}
+#out-content .cool .head{
+    width: 100%;
+    height: 38dvh;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+#out-content .cool .head #searchentry{
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 50dvw;
+    height: 3dvh;
+    width: 20dvw;
+    border: 2px solid black;
+}
+#out-content .cool .head #searchentrybtn{
+    width: 4dvw;
+    height: 4dvh;
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+#out-content .cool .head table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#out-content .cool .head table thead{
+    background-color: #EE6A43;
+    color: white;
+    height: 5dvh;
+}
+#out-content .cool .head table tbody{
+    text-align: center;
+}
+
+#out-content .cool .container{
+    border: 2px solid black;
+}
+#out-content .cool .container form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#out-content .cool .container form div{
+    flex: 1;
+    padding: 10px;
+    display: grid;
+}
+#out-content .cool .container form div button{
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* adjustment */
+#adjustment-content{
+    padding: 0%;
+    margin: 0%;
+}
+#adjustment-content .cool{
+    display: flex;
+    flex-direction: column;
+}
+#adjustment-content .cool .head{
+    width: 100%;
+    height: 38dvh;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+#adjustment-content .cool .head #searchadjust{
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 50dvw;
+    height: 3dvh;
+    width: 20dvw;
+    border: 2px solid black;
+}
+#adjustment-content .cool .head #searchadjustbtn{
+    width: 4dvw;
+    height: 4dvh;
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#adjustment-content .cool .head table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#adjustment-content .cool .head table thead{
+    background-color: #EE6A43;
+    color: white;
+    height: 5dvh;
+}
+#adjustment-content .cool .head table tbody{
+    text-align: center;
+}
+
+
+#adjustment-content .cool .container{
+    border: 2px solid black;
+}
+
+#adjustment-content .cool .container form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#adjustment-content .cool .container form div{
+    flex: 1;
+    padding: 10px;
+    display: grid;
+}
+#adjustment-content .cool .container form div div{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#adjustment-content .cool .container form div div input{
+    width: 20dvw;
+}
+#adjustment-content .cool .container form div div label{
+    margin-right: 1dvw;
+}
+#adjustment-content .cool .container form div button{
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    height: 5dvh;
+    width: 7dvw;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+}
+
+
+
+/* accounts */
+#accounts-content{
+    padding: 0%;
+    margin: 0%;
+}
+
+#accounts-content .btn{
+    margin-left: 75dvw;
+}
+#accounts-content .btn button{
+    width: 4dvw;
+    height: 4dvh;
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+#accounts-content .body table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#accounts-content .body table thead{
+    background-color: #EE6A43;
+    color: white;
+    height: 5dvh;
+}
+#accounts-content .body table tbody{
+    background-color: #FBCB77;
+    width: 100%;
+    text-align: center;
+}
+#accounts-content .body{
+    border: 2px solid black;
+    margin-top: 7px;
+    overflow-y: auto;
+    height: 72dvh;
+}
+
+/* products */
+#supplier-content{
+    padding: 0%;
+    margin: 0%;
+}
+
+#supplier-content .btn{
+    display: flex;
+    justify-items: center;
+    justify-content: right;
+}
+#supplier-content .btn input{
+    margin-right: 0.5dvw;
+    width: 40dvw;
+}
+
+#supplier-content .btn button{
+    width: 4dvw;
+    height: 4dvh;
+    margin-right: 0.5dvw;
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+#supplier-content .body table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#supplier-content .body table thead{
+    background-color: #EE6A43;
+    color: white;
+    height: 5dvh;
+}
+#supplier-content .body table tbody{
+    background-color: #FBCB77;
+    text-align: center;
+}
+#supplier-content .body{
+    border: 2px solid black;
+    margin-top: 7px;
+    overflow-y: auto;
+    height: 72dvh;
+}
+
+/* inevent */
+#invent-content{
+    padding: 0%;
+    margin: 0%;
+}
+#invent-content .btn{
+    display: flex;
+    justify-items: center;
+    justify-content: right;
+}
+#invent-content .btn input{
+    margin-right: 0.5dvw;
+    width: 40dvw;
+}
+
+#invent-content .btn button{
+    width: 4dvw;
+    height: 4dvh;
+    margin-right: 0.5dvw;
+
+    background-color: #3e8acc;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+#invent-content .body table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#invent-content .body table thead{
+    background-color: #EE6A43;
+    color: white;
+    height: 5dvh;
+}
+#invent-content .body table tbody{
+    background-color: #FBCB77;
+    text-align: center;
+}
+#invent-content .body{
+    border: 2px solid black;
+    margin-top: 7px;
+    overflow-y: auto;
+    height: 72dvh;
+}
+
+
+/* dash */
+.wrapper{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.nav{
+    background-color: #FBCB77;
+    width: 18%;
+    height: 100dvh;
+    position: fixed;
+    padding: 30px 0;
+    z-index: 99;
+}
+
+/* .navtop{
+    z-index: 950;
+    background-color: #EE6A43;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding:3px 10px;
+    margin: 0;
+    width: 100%;
+} */
+
+.navtop{
+    z-index: 950;
+    background-color: #EE6A43;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.navtop h1{
+    color: #FCECDF;
+    text-shadow: #9E122C 5px 3px;
+    margin: 0%;
+}
+.navtop img{
+    height: 20px;
+}
+.navtop .burgernav{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.box{
+    width: 80%;
+    height: 85dvh;
+    margin-left: 18%;
+    padding: 40px 20px;
+    background-color: white;
+    overflow-y: visible;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+
+}
+.nav ul li{
+    margin-left: 0px;
+}
+.nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0;
+    padding-left: 20px;
+    text-shadow: #9E122C 2px 2px;
+    transition: 300ms ease-in-out;
+}
+.nav img{
+    padding-top: 16px;
+    height: 150px;
+    padding-left: 30px;
+    padding-bottom: 12px;
+}
+.nav ul li a:hover{
+    background-color: #FCECDF;
+    color: #9E122C;
+    text-shadow: #FBCB77 2px 2px;
+}
+.highlight {
+    background-color: #9E122C;
+}
+/* login */
+
+
+@media only screen and (max-width: 576px){
+
+    .navtop{
+        flex-direction: row-reverse;
+
+    }
+
+    .navtop h1{
+        font-size: 1.1rem;
+        text-align: center;
+        text-align: right;
+    }
+
+    .navtop .burgernav{
+        display: block;
+        width: fit-content;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navtop .burgernav div{
+        width: 30px;
+        height: 5px;
+        margin-bottom: 2.5px;
+        background-color: white;
+    }
+
+    .navtop .burgernavtoshow{
+        background-color: gray;
+        position: relative;
+    }
+
+    .navtop .burgernavtoshow .div003{
+        display: none;
+    }
+
+    .navtop .burgernavtoshow .div001{
+        transform: rotateZ(135deg);
+        position: absolute;
+        left: 50%;
+    }
+
+    .navtop .burgernavtoshow .div002{
+        transform: rotateZ(-135deg);
+        position: absolute;
+        left: 50%;
+    }
+
+
+
+
+    .nav{
+        position: absolute;
+        width: 220px;
+        left: -300px;
+    }
+
+    .shownav{
+        position: absolute;
+        width: 220px;
+        left: 0;
+    }
+
+    .nav img{
+        width: 80px;
+        height: auto;
+        margin: 0;
+        /* display: none; */
+    }
+
+    .nav .nav-list li a{
+        font-size: 1.08rem;
+    }
+
+
+    
+
+    /* .box{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+
+
+    .box #invent-content h1{
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    .box #invent-content{
+        width: 100%;
+        overflow: auto;
+        position: relative;
+
+    }
+
+    .box #invent-content .btn{
+        
+    }
+
+    .box #invent-content .btn button{
+        width: fit-content;
+        font-size: 1rem;
+        margin-right: 5px;
+    }
+
+    .box #invent-content .btn input{
+        padding-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+    #inventsearchsing{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .box #invent-content .container .body{
+        overflow: auto;
+        position: relative;
+        border: thin solid black;
+    }
+
+    .box #invent-content .container .body table{
+        width: 500px;
+    }
+
+    .box #invent-content .container .body table .th001{
+        width: 5%;
+    }
+    .box #invent-content .container .body table .th002{
+        width: 35%;
+    }
+    .box #invent-content .container .body table .th003{
+        width: 10%;
+    }
+    .box #invent-content .container .body table .th004{
+        width: 20%;
+    }
+    .box #invent-content .container .body table .th005{
+        width: 10%;
+    }
+    .box #invent-content .container .body table .th006{
+        width: 20%;
+    }
+
+    .box #invent-content .container .body table td{
+        font-size: 0.7rem;
+        padding: 2px 0;
+        width: auto;
+    }
+
+    /* .box #invent-content .container .body table #inventBody tr td:last-child{
+        background-color: orange;
+    } */
+
+    .box #invent-content .container .body table #inventBody tr td button{
+        width: 50%;
+        display: inline-block;
+    }
+
+    #inventmodule form{
+        width: 80%;
+    }
+
+    #inventmodule form .divideraddinvent001{
+        width: 100%;
+    }
+
+    #inventmodule form .forinput002{
+        width: 100%;
+    }
+
+    #inventmodule form .forinput002 input{
+        width: 50%;
+    }
+
+    #inventmodule form .divideraddinvent001 .forbuttons002{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #inventmodule form .divideraddinvent001 .forbuttons002 button{
+        width: 100px;
+        font-weight: bold;
+    }
+
+
+
+    #supplier-content{
+        width: 100%;
+        overflow: auto;
+        position: relative;
+    }
+
+    #supplier-content h1{
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    .box #supplier-content .btn button{
+        width: fit-content;
+        font-size: 1rem;
+        margin-right: 5px;
+    }
+
+    .box #supplier-content .btn input{
+        padding-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+
+}
