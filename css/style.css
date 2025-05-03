@@ -720,10 +720,9 @@ body{
 
 
 @media only screen and (max-width: 576px){
-
     .navtop{
         flex-direction: row-reverse;
-
+        z-index: 999;
     }
 
     .navtop h1{
@@ -770,11 +769,8 @@ body{
         left: 50%;
     }
 
-
-
-
     .nav{
-        position: absolute;
+        position:absolute;
         width: 220px;
         left: -300px;
     }
@@ -844,14 +840,23 @@ body{
         text-align: center;
     }
 
+    .box #invent-content .container{
+        border: none;
+    }
+
     .box #invent-content .container .body{
         overflow: auto;
         position: relative;
         border: thin solid black;
+        border: none;
+    }
+
+    .box #invent-content .container .body::-webkit-scrollbar{
+        display: none;
     }
 
     .box #invent-content .container .body table{
-        width: 500px;
+        width: 700px;
     }
 
     .box #invent-content .container .body table .th001{
@@ -877,6 +882,7 @@ body{
         font-size: 0.7rem;
         padding: 2px 0;
         width: auto;
+        position: relative;
     }
 
     /* .box #invent-content .container .body table #inventBody tr td:last-child{
@@ -884,8 +890,9 @@ body{
     } */
 
     .box #invent-content .container .body table #inventBody tr td button{
-        width: 50%;
-        display: inline-block;
+
+        width: 50px;
+        height: 50px;
     }
 
     #inventmodule form{
@@ -940,5 +947,327 @@ body{
         border-radius: 10px;
     }
 
+    .box #supplier-content .container .body{
+        border: none;
+    }
+
+    .box #supplier-content .container .body::-webkit-scrollbar{
+        display: none;
+    }
+
+
+    #productmodule form{
+        width: 80%;
+    }
+
+    #productmodule form .deviderforproduct{
+        width: 100%;
+    }
+
+    #productmodule form .forinput002{
+        width: 100%;
+    }
+
+    #productmodule form .forinput002 input{
+        width: 50%;
+        padding-left: 10px;
+    }
+
+    #productmodule form .deviderforproduct .forbuttons002{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #productmodule form .deviderforproduct .forbuttons002 button{
+        width: 100px;
+        font-weight: bold;
+    }
+
+    #order-content{
+        width: 100%;
+        overflow: auto;
+        position: relative;
+    }
+
+    #order-content h1{
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    #order-content .cool{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    #order-content .cool .head{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: thin solid black;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+    #order-content .cool .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: thin solid black;
+    }
+
+    #order-content .cool .container .fortotals001,
+    #order-content .cool .container .fortotals002,
+    #order-content .cool .container .fortotals003{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #order-content .cool .container .fortotals001 input,
+    #order-content .cool .container .fortotals002 input,
+    #order-content .cool .container .fortotals003 input{
+        width: 40%;
+        margin: 0 50px;
+        margin-bottom: 10px;
+    }
+
+    #order-content .cool .container .fortotals001 label,
+    #order-content .cool .container .fortotals002 label,
+    #order-content .cool .container .fortotals003 label{
+        margin-right: 5px;
+    }
+
+    #order-content .cool .container{
+        overflow: auto;
+        height: 550px;
+        margin-bottom: 50px;
+    }
+
+    #order-content .cool .head #searchorderbtn{
+        width: 100px;
+        font-size: 18px;
+    }
+
+    #order-content .cool .container div #paybtn{
+        width: 100px;
+        font-size: 18px;
+    }
+
+
+
+    #adjustment-content{
+        width: 100%;
+        overflow: auto;
+        position: relative;
+    }
+
+    #adjustment-content h1{
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    #adjustment-content .cool{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #adjustment-content .cool .head #searchadjust{
+        width: 150px;
+        margin-left: 25dvw;
+    }
+
+
+    #adjustment-content .cool .head #searchadjustbtn{
+        width: 80px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+    #adjustment-content .cool .container form{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    #adjustment-content .cool .container form .lineforinput001,
+    #adjustment-content .cool .container form .lineforinput002{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    #adjustment-content .cool .container form .lineforinput001 div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+
+    }
+
+    #adjustment-content .cool .container form .lineforinput001 div label{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #adjustment-content .cool .container form .lineforinput001 div input{
+        width: 200px;
+        padding: 3px 10px;
+    }
+
+    #adjustment-content .cool .container form .lineforinput002 .forbuttons{
+        height: auto;
+    }
+
+    #adjustment-content .cool .container form .lineforinput002 div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+
+    }
+
+    #adjustment-content .cool .container form .lineforinput002 div label{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #adjustment-content .cool .container form .lineforinput002 div input{
+        width: 200px;
+        padding: 3px 10px;
+    }
+
+    #adjustment-content .cool .container form .lineforinput002 .forbuttons{
+        height: auto;
+    }
+
+    #adjustment-content .cool .container form .lineforinput002 .forbuttons button{
+        width: 80px;
+        font-size: 18px;
+        flex-direction: column;
+    }
+
+
+    #out-content{
+        width: 100%;
+        overflow: auto;
+        position: relative;
+    }
+
+    #out-content h1{
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    #out-content .cool{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #out-content .cool .head #searchentry{
+        width: 150px;
+        margin-left: 25dvw;
+    }
+
+
+    #out-content .cool .head #searchentrybtn{
+        width: 80px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+    #out-content .cool .container{
+        
+    }
+
+    #out-content .cool .container form{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    #out-content .cool .container form .lineforinput001,
+    #out-content .cool .container form .lineforinput002{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    #out-content .cool .container form .lineforinput001 div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+
+    }
+
+    #out-content .cool .container form .lineforinput002 div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+
+    }
+
+    #adjustment-content .cool .container form .lineforinput002 .forbuttons button{
+        width: 80px;
+        font-size: 18px;
+        flex-direction: column;
+    }
+
+    #report-content{
+        width: 100%;
+        overflow: auto;
+        position: relative;
+    }
+
+    #report-content h1{
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    #report-content .cool{
+        width: 100%;
+        height: 600px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #report-content .cool .head{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-content: center;
+    }
+
+    #report-content .cool .head button{
+        width: 100px;
+        font-size: 16px;
+    }
+
+    #report-content .cool .container{
+        display: none;
+    }
 
 }

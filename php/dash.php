@@ -176,16 +176,16 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <div>
+                                <div class="fortotals001">
                                     <input type="text" id="orderid" hidden>
                                     <label for="">Total</label>
                                     <input type="number" id="totaltxt" name="totaltxt">
                                 </div>
-                                <div>
+                                <div  class="fortotals002">
                                     <label for="">Payment</label>
                                     <input type="number" id="paymenttxt" name="paymenttxt">
                                 </div>
-                                <div>
+                                <div  class="fortotals003">
                                     <label for="">Change</label>
                                     <input type="number" id="change" name="change">
                                 </div>
@@ -217,7 +217,7 @@
                     </div>
                     <div class="container">
                         <form action="">
-                            <div>
+                            <div class="lineforinput001">
                                 <div>
                                     <label for="">Reference No.</label>
                                     <input type="text" name="adjustid" id="adjustid" hidden>
@@ -232,7 +232,7 @@
                                     <input type="text" name="adjustprice" id="adjustprice" readonly required>
                                 </div>
                             </div>
-                            <div>
+                            <div class="lineforinput002">
                                 <div>
                                     <label for="">Quantity (kg)</label>
                                     <input type="number" name="adjustquan" id="adjustquan" required>
@@ -241,7 +241,7 @@
                                     <label for="">Reason</label>
                                     <input type="text" name="adjustreason" id="adjustreason" required>
                                 </div>
-                                <div>
+                                <div class="forbuttons">
                                     <button id="btnadjust">Enter</button>
                                     <br>
                                     <button id="btnadjustcancel">Cancel</button>
@@ -273,7 +273,7 @@
                     </div>
                     <div class="container">
                         <form action="">
-                            <div>
+                            <div class="lineforinput001">
                                 <div>
                                     <label for="">Reference No.</label>
                                     <input type="text" name="entryrefer" id="entryrefer" required>
@@ -287,7 +287,7 @@
                                     <input type="text" name="entryid" id="entryid" readonly required>
                                 </div>
                             </div>
-                            <div>
+                            <div class="lineforinput002">
                                 <div>
                                     <label for="">Quantity (Kg)</label>
                                     <input type="number" name="entryquan" id="entryquan" required>
@@ -518,16 +518,16 @@
             <div class="module" id="productmodule" style="display: none;">
                 <form action="">
                     <h1>Product Module</h1>
-                    <div>
-                        <div>
+                    <div class="deviderforproduct">
+                        <div class="forinput002">
                             <input type="text" id="idproduct" name="idproduct" hidden>
                             <input type="text" id="nameproduct" name="nameproduct" placeholder="Product Name" required>
                         </div>
-                        <div>
+                        <div class="forinput002">
                             <input type="text" id="productcode" name="productcode" placeholder="Product Code" required>
                             <input type="text" id="productprice" name="productprice" placeholder="Product Price" required>
                         </div>
-                        <div>
+                        <div class="forbuttons002">
                             <button id="addproductbtn">Update</button>
                             <button id="productcancel" >Cancel</button>
                         </div>

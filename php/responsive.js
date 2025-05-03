@@ -11,11 +11,15 @@ burgernav.addEventListener('click', ()=>{
         navbar.classList.add("shownav")
         burgernav.classList.add("burgernavtoshow")
         togglenav = true
+
+        document.body.style.overflow = "hidden"
     }
     else{
         togglenav = false
         navbar.classList.remove("shownav")
         burgernav.classList.remove("burgernavtoshow")
+
+        document.body.style.overflow = "auto"
     }
 
     
