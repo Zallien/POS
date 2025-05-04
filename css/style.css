@@ -884,6 +884,10 @@ body{
         width: auto;
         position: relative;
     }
+    .box #invent-content .container .body table tbody td button{
+        width: 50px;
+        height: auto;
+    }
 
     /* .box #invent-content .container .body table #inventBody tr td:last-child{
         background-color: orange;
@@ -1014,6 +1018,10 @@ body{
         margin-bottom: 20px;
     }
 
+    #order-content .cool .head #    searchorder{
+        border-radius: 10px;
+    }
+
 
 
 
@@ -1054,10 +1062,10 @@ body{
         height: 550px;
         margin-bottom: 50px;
     }
-
     #order-content .cool .head #searchorderbtn{
         width: 100px;
         font-size: 18px;
+        border-radius: 10px;
     }
 
     #order-content .cool .container div #paybtn{
@@ -1084,6 +1092,12 @@ body{
         padding: 0;
     }
 
+    #adjustment-content .cool .head{
+        border-bottom: thin solid black;
+        border-top: thin solid black;
+        box-shadow: 0 3px 8px black;
+    }
+
     #adjustment-content .cool .head #searchadjust{
         width: 150px;
         margin-left: 25dvw;
@@ -1098,6 +1112,9 @@ body{
 
 
 
+    #adjustment-content .cool .container{
+        border: none;
+    }
 
     #adjustment-content .cool .container form{
         display: flex;
@@ -1160,6 +1177,7 @@ body{
         width: 80px;
         font-size: 18px;
         flex-direction: column;
+        border-radius: 10px;
     }
 
 
@@ -1167,22 +1185,43 @@ body{
         width: 100%;
         overflow: auto;
         position: relative;
+        padding: 0;
+        margin: 0;
+        padding: 5px 0;
     }
 
     #out-content h1{
         font-size: 1.2rem;
         padding: 0 10px;
+        width: 100%;
     }
 
     #out-content .cool{
         width: 100%;
         margin: 0;
         padding: 0;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+
+    #out-content .cool .head{
+        width: 100%;
+        border: none;
+        border-bottom: thin solid black;
+        border-top: thin solid black;
+        box-shadow: 0 3px 8px black;
+
+    }
+
+    #out-content .cool .head table{
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     #out-content .cool .head #searchentry{
         width: 150px;
-        margin-left: 25dvw;
+        margin-left: 15dvw;
     }
 
 
@@ -1197,7 +1236,7 @@ body{
 
 
     #out-content .cool .container{
-        
+        border: none;
     }
 
     #out-content .cool .container form{
@@ -1251,23 +1290,152 @@ body{
         height: 600px;
         margin: 0;
         padding: 0;
+        overflow: auto;
     }
 
     #report-content .cool .head{
-        width: 100%;
+        width: 180%;
         height: auto;
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        align-content: center;
+        column-gap: 10px;
+        align-items: center;
+        justify-items: center;
+        padding: 0;
+        margin: 0;
+        background-color: gray;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 12px; */
+        position: relative;
+    }
+
+    #report-content .cool .head #button1,
+    #report-content .cool .head #button2,
+    #report-content .cool .head #button3,
+    #report-content .cool .head #button4{
+        width: 100px;
+        font-size: 16px;
+        display: block;
     }
 
     #report-content .cool .head button{
+        font-size: 14px;
+        height: 50px;
         width: 100px;
-        font-size: 16px;
     }
 
-    #report-content .cool .container{
-        display: none;
+    #report-content .cool .head input{
+        font-size: 14px;
+        padding: 3px 5px;
+        border-radius: 10px;
+        border: thin solid black;
     }
+
+    #report-content .cool .head #stockentryrs1{
+        display: flex;
+        align-items: center;
+        padding-inline: 10px;
+        width: auto;
+        padding: 0 10px;
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #report-content .cool .head #stockentryrs1 label{
+        margin: 0 10px;
+        width: fit-content;
+        padding: 0 5px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #report-content .cool .head #stockentryrs1 #btnprint{
+        font-size: 14px;
+        display: block;
+    }
+
+
+
+    #report-content .cool .container{
+        width: 180%;
+    }
+
+    #report-content .cool .container .one{
+        overflow: auto;
+        width: 100%;
+    }
+
+    #report-content .cool .container .one table{
+        width: 100%;
+    }
+
+
+    #accounts-content{
+        width: 100%;
+        overflow: auto;
+        position: relative;
+    }
+
+    #accounts-content .head h1{
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    #accounts-content .btn{
+        margin: 0;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    #accounts-content .head #actAddbtn{
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+        font-size: 18;
+        font-weight: bold;
+    }
+
+
+
+    #accountmodule form{
+        width: 80%;
+    }
+
+    #accountmodule form .deviderforaccoundts001{
+        width: 100%;
+    }
+
+    #accountmodule form .deviderforaccoundts001 div{
+        width: 100%;
+    }
+
+    #accountmodule form .deviderforaccoundts001 div input{
+        width: 100%;
+    }
+
+    #accountmodule form .deviderforaccoundts001 div.ques{
+        flex-direction: column;
+        
+    }
+
+    #accountmodule form .deviderforaccoundts001 div.ques input{
+        width: calc(100% - 20px);
+        
+    }
+
+    #accountmodule form .deviderforaccoundts001 div.ques select{
+        width: calc(100% - 20px);
+    }
+
+    #accountmodule form .deviderforaccoundts001 div button{
+        width: 100px;
+    }
+
 
 }

@@ -362,9 +362,7 @@
                             <label for="">End Date</label>
                             <input type="date" id="endDate" name="endDate" required>
                             <button id="btnprint" >Print</button>
-                        </div>    
-                        
-
+                        </div>
                     </div>
                     <div class="container">
                         <div class="one" id="record-one">
@@ -466,7 +464,7 @@
             <div class="module" id="accountmodule" style="display: none;">
                 <form action="">
                     <h1>Account Module</h1>
-                    <div>
+                    <div class="deviderforaccoundts001">
                         <div>
                             <input type="text" id="iduser" name="iduser" hidden>
                             <input type="text" id="nameusers" name="nameusers" placeholder="Full Name" required>
