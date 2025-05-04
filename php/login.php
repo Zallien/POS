@@ -45,7 +45,7 @@
                 <div class="forgotpasswordModule" id="forgotpasswordModule" style="display: none;">
                     <form id="forgotForm">
                         <h1>Forgot Password</h1>
-                        <div>
+                        <div class="motherdiv">
                             <input type="hidden" name="username" id="forgotuser" value="">
                             <div class="ques">
                                 <label for="" id="q1">Sample Question</label>

@@ -40,10 +40,10 @@
             
 
                 <div class="burgernav">
-                <div class="div001"></div>
-                <div class="div002"></div>
-                <div class="div003"></div>
-            </div>
+                    <div class="div001"></div>
+                    <div class="div002"></div>
+                    <div class="div003"></div>
+                </div>
         </div>
         <div class="nav">
             <img src="../media/logiiiii.png" alt="no img">

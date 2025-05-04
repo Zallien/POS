@@ -36,7 +36,14 @@ try {
 <body>
     <div class="wrapper">
         <div class="navtop">
-            <h1>Daza's Best Inventory with Sales System</h1>
+            
+            <h1>Daza's Best Inventory with Sales Management System</h1>
+
+            <div class="burgernav">
+                    <div class="div001"></div>
+                    <div class="div002"></div>
+                    <div class="div003"></div>
+            </div>
         </div>
         <div class="nav">
             <img src="../media/logiiiii.png" alt="no img">
@@ -50,9 +57,9 @@ try {
         <input type="text" id="nums" hidden>
 
         <div class="box">
-        <div id="dash-content" class="content-section">
+            <div id="dash-content" class="content-section">
                 <h1>Sales & Expenses</h1>
-                    <div class="line">
+                    <div class="line firstline">
                         <div class="cont">
                         <h3>Weekly Sales</h3>
                         <h3 id="weekly-sales">number</h3>
@@ -71,13 +78,13 @@ try {
                         </div>
                     </div>
                     
-                    <div class="line">
+                    <div class="line secondline">
                         <div class="one">
                             <div>
                                 <canvas id="salesChart" style="width: 31dvw; height: 24dvh; display: block;"></canvas>
                             </div>
                         </div>
-                        <div class="one">
+                        <div class="one withtables">
                         <table>
                             <thead>
                                 <th>Top Selling Products</th>
@@ -98,7 +105,7 @@ try {
                         </table>
                         </div>
                     </div>
-        </div>
+            </div>
 
             <div id="order-content" class="content-section" style="display: none;">
                 <h1>Order Sales</h1>
@@ -133,16 +140,16 @@ try {
                                         </tbody>
                                     </table>
                                 </div>
-                                <div>
+                                <div class="fortotals001">
                                     <input type="text" id="orderid" hidden>
                                     <label for="">Total</label>
                                     <input type="number" id="totaltxt" name="totaltxt">
                                 </div>
-                                <div>
+                                <div class="fortotals002">
                                     <label for="">Payment</label>
                                     <input type="number" id="paymenttxt" name="paymenttxt">
                                 </div>
-                                <div>
+                                <div class="fortotals003">
                                     <label for="">Change</label>
                                     <input type="number" id="change" name="change">
                                 </div>
@@ -355,6 +362,7 @@ try {
                 </form>
             </div> -->
 </body>
+<script src="responsive.js"></script>
 <script>
         document.addEventListener("DOMContentLoaded", function() {
   const navLinks = document.querySelectorAll(".nav-list li a");

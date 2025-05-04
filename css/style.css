@@ -624,6 +624,7 @@
 .wrapper{
     padding: 0%;
     margin: 0%;
+    overflow: hidden;
 }
 body{
     padding: 0%;
@@ -634,8 +635,21 @@ body{
     width: 18%;
     height: 100dvh;
     position: fixed;
-    padding: 30px 0;
+    padding: 50px 0;
+    padding-bottom: 0;
     z-index: 99;
+    
+}
+
+.nav img{
+    width: auto;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* .navtop{
@@ -652,7 +666,9 @@ body{
 
 .navtop{
     z-index: 950;
+    width: 100%;
     background-color: #EE6A43;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -681,6 +697,9 @@ body{
     background-color: white;
     overflow-y: visible;
 }
+
+
+
 .nav ul{
     list-style: none;
     margin: 0;
@@ -694,10 +713,10 @@ body{
     display: flex;
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-align: left;
-    padding: 10px 0;
+    padding: 7px 0;
     padding-left: 20px;
     text-shadow: #9E122C 2px 2px;
     transition: 300ms ease-in-out;
@@ -723,6 +742,8 @@ body{
     .navtop{
         flex-direction: row-reverse;
         z-index: 999;
+        position:unset;
+        width: auto;
     }
 
     .navtop h1{

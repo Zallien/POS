@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daza's Best</title>
     <link rel="stylesheet" href="">
+    <style>
+        
+    </style>
 </head>
 <body>
 <video id="overlayVideo" autoplay muted>
@@ -22,6 +25,7 @@
     }
     video{
         height: 100dvh;
+        width: 100dvw;
     }
 </style>
 <script>

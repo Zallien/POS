@@ -315,5 +315,62 @@ h3{
     .right form .for{
         width: fit-content;
     }
+
+
+
+    .wrapper .forgotpasswordModule{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper .forgotpasswordModule form{
+        top: 0;
+        left: 0;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        margin: 50% auto;
+        height: auto;
+    }
+
+    .wrapper .forgotpasswordModule form h1{
+        width: 100%;
+        text-align: center;
+        border: none;
+        border-radius: 10px 10px 0 0;
+        font-size: 1rem;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .wrapper .forgotpasswordModule form .motherdiv{
+        width: 100%;
+    }
+
+    .wrapper .forgotpasswordModule form .motherdiv .ques{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .wrapper .forgotpasswordModule form .motherdiv .ques label{
+        width: 100%;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .wrapper .forgotpasswordModule form .motherdiv #buttons{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+
+
+
 }
     
